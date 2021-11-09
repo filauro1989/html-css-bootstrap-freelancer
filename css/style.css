@@ -1,7 +1,7 @@
 header {
     background-color: blue;
 }
-.top_menu {
+.my-bg-black {
     background-color: black;
 }
 .top_menu_col {
@@ -18,6 +18,9 @@ header {
 }
 .my-bg-lblue {
     background-color: lightblue;
+}
+.my-bg-dblue {
+    background-color: darkblue;
 }
 #portfolio {
     height: 100px;
