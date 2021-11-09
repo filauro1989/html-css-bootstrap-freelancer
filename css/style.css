@@ -28,3 +28,18 @@ header {
 .my_square {
     height: 100px;
 }
+/* .row {
+    margin: 0;
+} */
+#menu-dx-phone {
+    display: none;
+}
+
+/* @media screen and (max-width: 576px) {
+    #menu-dx {
+        display: none;
+    }
+    #menu-dx-phone {
+        display: block;
+    }
+} */
