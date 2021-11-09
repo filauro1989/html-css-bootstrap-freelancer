@@ -7,9 +7,18 @@ header {
 .top_menu_col {
     background-color: yellow;
 }
-.tx_right {
-    text-align: right;
-}
 .my_jumbo {
     background-color: lightblue;
+}
+.my-bg-red {
+    background-color: red;
+}
+.my-bg-purple {
+    background-color: purple;
+}
+#portfolio {
+    height: 100px;
+}
+.my_square {
+    height: 100px;
 }
