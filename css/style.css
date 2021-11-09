@@ -35,11 +35,11 @@ header {
     display: none;
 }
 
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     #menu-dx {
         display: none;
     }
     #menu-dx-phone {
         display: block;
     }
-} */
+}
