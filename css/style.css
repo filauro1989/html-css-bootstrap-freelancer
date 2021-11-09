@@ -16,6 +16,9 @@ header {
 .my-bg-purple {
     background-color: purple;
 }
+.my-bg-lblue {
+    background-color: lightblue;
+}
 #portfolio {
     height: 100px;
 }
