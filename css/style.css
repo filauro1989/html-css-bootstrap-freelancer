@@ -44,7 +44,9 @@
   }
 
   .jumbotron .star span::before,
-  .jumbotron .star span::after {
+  .jumbotron .star span::after,
+  .about .star span::before, 
+  .about .star span::after {
       content: '';
       width: 6rem;
       height: 1px;
