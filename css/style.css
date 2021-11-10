@@ -21,6 +21,13 @@
   .nav-menu {
       height: 100%;
   }
+  .nav-menu li {
+      transition: color 0.3s;
+  }
+  .header .nav-menu li:hover {
+      color: rgb(var(--green-color));
+      cursor: pointer;
+  }
 
   .bg-green {
     background-color: rgb(var(--green-color));
@@ -112,9 +119,11 @@
   }
   .portfolio .image:hover::before {
       opacity: 1;
+      cursor: pointer;
   }
   .portfolio .image:hover .fa-plus {
       opacity: 1;
+      cursor: pointer;
   }
   .my_form-control {
     border: none;
