@@ -172,22 +172,27 @@
                 </div>
             </div>
             <div class="col-8">
-                <div class="mb-3">
-                    <label for="name" class="form-label mb-0">Name</label>
-                    <input type="text" class="form-control my_form-control pt-0" id="name" placeholder="">
-                  </div>
-                <div class="mb-3">
-                    <label for="emailAddress" class="form-label mb-0">Email address</label>
-                    <input type="email" class="form-control my_form-control pt-0" id="emailAddress" placeholder="">
-                  </div>
-                <div class="mb-3">
-                    <label for="phoneNumber" class="form-label mb-0">Phone number</label>
-                    <input type="number" class="form-control my_form-control pt-0" id="phoneNumber" placeholder="">
-                  </div>
-                  <div class="mb-3">
-                    <label for="messageArea" class="form-label mb-0">Message</label>
-                    <textarea class="form-control my_form-control pt-0" id="messageArea" rows="3"></textarea>
-                  </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0 border-bottom" id="name" placeholder="asd">
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control border-0 border-bottom" id="email" placeholder="name@example.com">
+                    <label for="email">Email address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control border-0 border-bottom" id="phoneNumber" placeholder="asd">
+                    <label for="phoneNumber">Phone Number</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0 border-bottom" id="message" placeholder="asd">
+                    <label for="message">Message</label>
+                </div>
+
                 <input class="btn btn-primary my_btn-submit" type="submit" value="Submit">
             </div>
         </div>
@@ -202,11 +207,11 @@
     <div class="footer-top">
       <div class="container text-center">
         <div class="row">
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 pt-3">
             <h5 class="text-uppercase">Location</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet</p>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 pt-3">
                 <h5 class="text-uppercase">around the web</h5>
 
                 <button type="button" class="btn btn-outline-light my_btn-link rounded-circle"><i class="fab fa-facebook"></i></button>
@@ -215,7 +220,7 @@
                 <button type="button" class="btn btn-outline-light my_btn-link rounded-circle"><i class="fab fa-linkedin"></i></button>
 
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 pt-3">
             <h5 class="text-uppercase">About Freelancer</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet</p>
           </div>
