@@ -88,19 +88,32 @@
     width: 100%;
     height: 100%;
   }
+  .portfolio .fa-plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    filter: invert(1);
+  }
   .portfolio .image::before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-color: rgb(var(--green-color));
-      opacity: 0;
-      transition: opacity 0.3s ease-out;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(var(--green-color));
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
   }
   .portfolio .image:hover::before {
+      opacity: 1;
+  }
+  .portfolio .image:hover .fa-plus {
       opacity: 1;
   }
   .my_form-control {
