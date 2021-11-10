@@ -1,5 +1,15 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 header {
-    background-color: blue;
+    width: 100%;
+    background-color: lightblue;
+}
+main {
+    width: 100%;
+}
+footer {
+    width: 100%;
 }
 .my-bg-black {
     background-color: black;
@@ -17,7 +27,7 @@ header {
     background-color: purple;
 }
 .my-bg-lblue {
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 .my-bg-dblue {
     background-color: darkblue;
@@ -25,21 +35,8 @@ header {
 #portfolio {
     height: 100px;
 }
-.my_square {
-    height: 100px;
-}
-/* .row {
-    margin: 0;
-} */
-#menu-dx-phone {
-    display: none;
-}
-
-@media screen and (max-width: 576px) {
-    #menu-dx {
-        display: none;
-    }
-    #menu-dx-phone {
-        display: block;
-    }
+.my_square img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
