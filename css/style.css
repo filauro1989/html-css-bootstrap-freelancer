@@ -1,42 +1,54 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-header {
+:root {
+    --green-color: 26, 188, 156;
+    --dark-green-color: 44, 62, 80;
+    --font-color-base: 0, 0, 0;
+    --font-color-light: 255, 255, 255;
+  }
+  
+  /* Extend Bootstrap Utilities */
+  .pb-6 {
+    padding-bottom: 4rem!important;
+  }
+  .pt-6 {
+    padding-top: 4rem!important;
+  }
+  
+  .header {
+    background-color: rgb(var(--dark-green-color));
+  }
+  
+  .bg-green {
+    background-color: rgb(var(--green-color));
+  }
+  .jumbotron {
+    background-color: rgb(var(--green-color));
+  }
+  .jumbotron .avatar {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: royalblue;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .header h1 {
+      font-size: 1em;
+    }
+  }
+  
+  .portfolio .image {
     width: 100%;
-    background-color: lightblue;
-}
-main {
-    width: 100%;
-}
-footer {
-    width: 100%;
-}
-.my-bg-black {
-    background-color: black;
-}
-.top_menu_col {
-    background-color: yellow;
-}
-.my_jumbo {
-    background-color: lightblue;
-}
-.my-bg-red {
-    background-color: red;
-}
-.my-bg-purple {
-    background-color: purple;
-}
-.my-bg-lblue {
-    /* background-color: lightblue; */
-}
-.my-bg-dblue {
-    background-color: darkblue;
-}
-#portfolio {
-    height: 100px;
-}
-.my_square img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-}
+    height: 300px;
+    background-color: salmon;
+  }
+  .footer { 
+    color: rgb(var(--font-color-light));
+  }
+  .footer .footer-top{
+    background-color: rgba(var(--dark-green-color), 0.9);
+  }
+  .footer .footer-bottom{
+    background-color: rgba(var(--dark-green-color));
+  }
+
+  
