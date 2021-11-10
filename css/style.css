@@ -101,7 +101,10 @@
       background-color: rgba(var(--green-color), 0.7);
       border-color: rgba(var(--green-color), 0.7);
   }
-
+  .my_btn-link {
+      height: 2.8em;
+      width: 2.8em;
+  }
   .footer { 
     color: rgb(var(--font-color-light));
   }
